@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(119, 108, 101);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid rgb(83, 77, 73);
+    padding: 16px;
+}
+
+main {
+    display: block;
+    color: rgb(119, 108, 101);
+    margin-left: 0 auto;
+    padding: 16px;
+}
+
+main img {
+    display: flex;
+    height: 80vh;
+}
+
+.h2 {
+    font-size: 20px;
+    margin-left: 100px;
+}
