@@ -9,15 +9,93 @@
 <body>
     
     <header> 
-        <h1> #meuo BLOGII </h1>
-        <p> vou compartilhar conhecimento sobre tecnologia e programação </p>
+        <h1> #BLOGII DA LARISSAAAAAA </h1>
+        <p> Vou compartilhar conhecimento sobre tecnologia e programação </p>
     </header>
 
     <main>
-        <img src="oia-uia.png">
-        <h2> meu primeiro post </h2>
-        <p> bem-vinde ao meu novo blogi! aqui eu vou compartilhar dicas de programação e curiosidades da area de tecnologia!</p>
+        <article>
+            <img src="oia-uia.png">
+            <div>
+                <h2 class="textao"> My First Blog! </h2>
+                <p class="por"> Por: Larissadods </p>
+                <p class="textinhus"> Bem-vindes ao meu novo bloguie! aqui eu vou compartilhar dicas de programação e curiosidades da area de tecnologia! </p>
+                <ul>
+                    <li> <strong> O primeiro "Bug" de computador foi um inseto de verdade: </strong> Em 1947, a renomada cientista da computação Grace Hopper estava trabalhando no computador Mark II na Universidade de Harvard quando a equipe encontrou uma falha. Ao investigarem a máquina, descobriram uma mariposa real presa em um dos relés. O inseto foi removido e colado no diário de bordo com a anotação: "Primeiro caso real de um bug sendo encontrado". Daí surgiu o termo que usamos até hoje para erros de software. </li>
+                    <li> <strong> O primeiro site da história ainda está online: </strong> Criado por Tim Berners-Lee (o pai da World Wide Web), o primeiro site do mundo foi ao ar em 6 de agosto de 1991. Ele explicava o que era a própria WWW e como usar a internet. O mais incrível é que ele continua ativo e no mesmo endereço original mantido pela CERN. </li>
+                    <li> <strong> HTML não é uma linguagem de programação: </strong> Muitas pessoas confundem, mas o HTML (HyperText Markup Language) é uma linguagem de marcação, e o CSS (Cascading Style Sheets) é uma linguagem de estilos. Nenhum dos dois executa lógica condicional, loops ou funções matemáticas complexas de forma nativa como o JavaScript ou o Python. Eles servem para estruturar e vestir a página, respectivamente. </li>
+                    <li> <strong> Use um Gerenciador de Senhas e Pare de Anotar no Caderno: </strong> Usar a mesma senha para tudo ou variações fáceis (como "Senha123") é o maior erro de segurança atual. Use gerenciadores de senhas (como 1Password, Bitwarden ou o nativo do seu sistema). Eles geram senhas aleatórias e complexas para cada site e você só precisa lembrar de uma senha mestra. </li>
+                </ul>
+                <div class="botoes">
+                    <button> 🥰​ <span> 0 </span> </button>
+                    <button> 😗 <span> 0 </span> </button>
+                    <button> 🤮 <span> 0 </span> </button>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <img src="imanewsoul.png">
+            <div>
+                <h2 class="textao"> My Last Blog! </h2>
+                <p class="por"> Por: Larissadods </p>
+                <p class="textinhus"> Para finalizar meu blog, deixarei a letra de uma música muito boa para voces! </p>
+                <p> I'm a new soul I came to this strange world hoping
+                    I could learn a bit 'bout how to give and take
+                    But since I came here felt the joy and the fear
+                    Finding myself making every possible mistake
+                    
+                    La-la-la-la-la-la-la-la
+                    
+                    I'm a young soul in this very strange world
+                    Hoping I could learn a bit 'bout what is true and fake
+                    But why all this hate?
+                    Try to communicate finding
+                    Trust and love is not always easy to make
+                    
+                    La-la-la-la-la-la-la-la
+                    
+                    This is a happy end cause'
+                    You don't understand
+                    Everything you have done
+                    Why's everything so wrong
+                    
+                    This is a happy end
+                    Come and give me your hand
+                    I'll take your far away
+                    
+                    I'm a new soul
+                    I came to this strange world
+                    Hoping I could learn a bit about how to give and take
+                    But since I came here felt the joy and the fear
+                    Finding myself making every possible mistake
+                    
+                    New soul
+                    In this very strange world
+                    Every possible mistakes
+                    Possible mistakes
+                    Every possible mistakes
+                    Mistakes, mistakes, mistakes </p>
+                <div class="botoes">
+                    <button> 🥰​ <span> 0 </span> </button>
+                    <button> 😗 <span> 0 </span> </button>
+                    <button> 🤮 <span> 0 </span> </button>
+                </div>
+            </div>
+        </article>
     </main>
    
 </body>
+    <script>
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach( function (botao) {
+            botao.addEventListener("click", botaoClicado);
+            function botaoClicado() {
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+            }
+        })
+    </script>
 </html>

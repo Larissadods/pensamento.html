@@ -8,22 +8,40 @@ header {
 }
 
 main {
-    display: flex;
     color: rgb(119, 108, 101);
-   
     padding: 10px;
 }
 
+article {
+    display: flex;
+}
+
 main img {
-   
     width: 500px;
     height: 70vh;
 }
 
-main h2{
-    width: 20%;
+.textao {
+    margin-left: 40%;
+    font-size: 30px;
+    width: 35%;
 }
 
-main p {
-    width: 45%;
+.por {
+    font-weight: bold;
+}
+
+.textinhus {
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 12%;
+    width: 70%;
+}
+
+.botoes {
+    margin-left: 40%;
+    border-radius: 10px;
+    padding: 2em;
+    display: block;
+    text-decoration: none;
 }
