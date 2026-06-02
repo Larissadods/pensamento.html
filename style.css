@@ -8,18 +8,22 @@ header {
 }
 
 main {
-    display: block;
+    display: flex;
     color: rgb(119, 108, 101);
-    margin-left: 0 auto;
-    padding: 16px;
+   
+    padding: 10px;
 }
 
 main img {
-    display: flex;
-    height: 80vh;
+   
+    width: 500px;
+    height: 70vh;
 }
 
-.h2 {
-    font-size: 20px;
-    margin-left: 100px;
+main h2{
+    width: 20%;
+}
+
+main p {
+    width: 45%;
 }
