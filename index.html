@@ -6,7 +6,7 @@
     <title> atividade de pensamento da aluraaa </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="tema-escuro">
     
     <header> 
         <h1> #BLOGII DA LARISSAAAAAA </h1>
@@ -18,10 +18,8 @@
             <img src="oia-uia.png">
             <div class="textos">
                 <h2 class="textao"> Curiosidades do mundo tecnologico! </h2>
-                <p class="por"> Por: Larissadods </p>
-                <ul>
-                    <li> <strong> O primeiro "Bug" de computador foi um inseto de verdade: </strong> Em 1947, a renomada cientista da computação Grace Hopper estava trabalhando no  computador Mark II na Universidade de Harvard quando a equipe encontrou uma falha. Ao investigarem a máquina, descobriram uma mariposa real presa em um dos relés. O inseto foi removido e colado no diário de bordo com a anotação: "Primeiro caso real de um bug sendo encontrado". Daí surgiu o termo que usamos até hoje para erros de software. </li>
-                </ul>
+                <p> Por: Larissadods </p>
+                <p> <strong> O primeiro "Bug" de computador foi um inseto de verdade: </strong> Em 1947, a renomada cientista da computação Grace Hopper estava trabalhando no  computador Mark II na Universidade de Harvard quando a equipe encontrou uma falha. Ao investigarem a máquina, descobriram uma mariposa real presa em um dos relés. O inseto foi removido e colado no diário de bordo com a anotação: "Primeiro caso real de um bug sendo encontrado". Daí surgiu o termo que usamos até hoje para erros de software. </p>
                 <div class="botoes">
                     <button> 🥰​ <span> 0 </span> </button>
                     <button> 😗 <span> 0 </span> </button>
@@ -34,11 +32,9 @@
             <img src="joia.webp">
             <div class="textos">
                 <h2 class="textao"> Curiosidades sobre HTML! </h2>
-                <p class="por"> Por: Larissadods </p>
-                <ul>
-                    <li> <strong> A origem do HTML: </strong> A linguagem foi criada em 1990 pelo físico britânico Tim Berners-Lee no laboratório CERN, na Suíça, com o objetivo inicial de facilitar o compartilhamento de documentos e pesquisas entre cientistas. </li>
-                    <li> <strong> O HTML começou "invisível": </strong> A primeira versão oficial do HTML continha apenas 18 tags básicas. Muitas delas foram criadas para organizar documentos acadêmicos. Curiosamente, a base da internet como conhecemos hoje só se popularizou mundialmente em 1992, quando a biblioteca World Wide Web foi liberada ao público. </li>
-                </ul>
+                <p> Por: Larissadods </p>
+                    <p> <strong> A origem do HTML: </strong> A linguagem foi criada em 1990 pelo físico britânico Tim Berners-Lee no laboratório CERN, na Suíça, com o objetivo inicial de facilitar o compartilhamento de documentos e pesquisas entre cientistas. </p>
+                    <p> <strong> O HTML começou "invisível": </strong> A primeira versão oficial do HTML continha apenas 18 tags básicas. Muitas delas foram criadas para organizar documentos acadêmicos. Curiosamente, a base da internet como conhecemos hoje só se popularizou mundialmente em 1992, quando a biblioteca World Wide Web foi liberada ao público. </p>
                 <div class="botoes">
                     <button> 🥰​ <span> 0 </span> </button>
                     <button> 😗 <span> 0 </span> </button>
@@ -95,11 +91,6 @@
                 <h2 class="textao"> O que é Python? </h2>
                 <p class="por"> Por: Larissadods </p>
                 <p> Python é uma linguagem de programação de alto nível, de código aberto e muito fácil de aprender. Criada nos anos 90, ela tem uma sintaxe limpa que lembra o inglês, sendo amplamente usada em inteligência artificial, análise de dados, automação de tarefas e desenvolvimento web. </p>
-                <ul>
-                    <li> <strong> Simplicidade: </strong> O código é direto e fácil de ler, o que a torna ideal para iniciantes. </li>
-                    <li> <strong> Versatilidade: </strong> É utilizada para criar desde pequenos scripts de automação até sistemas complexos e sites. </li>
-                    <li> <strong> Comunidade Ativa: </strong>  Possui milhares de bibliotecas gratuitas que facilitam a criação de novos programas sem precisar reinventar a roda. </li>
-                </ul>
                 <div class="botoes">  
                     <button> 🥰​ <span> 0 </span> </button>
                     <button> 😗 <span> 0 </span> </button>
@@ -172,20 +163,11 @@
                 </div>
             </div>
         </article>
+
+        <button class="btn-tema-escuro"> 🌓 </button>
+
     </main>
    
     <script src="script.js"> </script>
 </body>
-    <script>
-        const botoes = document.querySelectorAll("button");
-
-        botoes.forEach( function (botao) {
-            botao.addEventListener("click", botaoClicado);
-            function botaoClicado() {
-            console.log("fui clicado");
-            let texto = botao.querySelector("span");
-            texto.textContent++;
-            }
-        })
-    </script>
 </html>
