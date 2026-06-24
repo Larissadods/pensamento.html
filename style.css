@@ -1,47 +1,46 @@
+body {
+    max-width: 98vw;
+}
+
 header {
-    background-color: rgb(119, 108, 101);
+    background-color: rgb(255, 57, 255);
     color: white;
     text-align: center;
     margin: 0 auto;
-    border: 5px solid rgb(83, 77, 73);
     padding: 16px;
 }
 
 main {
-    color: rgb(119, 108, 101);
-    padding: 10px;
+    color: rgb(70, 18, 204);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article {
+    max-width: 27vw;
     display: flex;
+    border: 1px solid grey;
+    margin: 32px;
+    gap: 16px;
+    padding: 10px;
+    flex: 1 1 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 main img {
-    width: 500px;
-    height: 70vh;
+   width: 20%;
+   height: 20vh;
 }
 
-.textao {
-    margin-left: 40%;
-    font-size: 30px;
-    width: 35%;
-}
-
-.por {
-    font-weight: bold;
-}
-
-.textinhus {
-    font-size: 20px;
-    padding: 20px;
-    margin-left: 12%;
-    width: 70%;
+.textos {
+    font-size: 12px;
 }
 
 .botoes {
-    margin-left: 40%;
     border-radius: 10px;
     padding: 2em;
-    display: block;
     text-decoration: none;
 }
